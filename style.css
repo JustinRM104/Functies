@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+
+  font-family: sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 1em;
+  border-bottom: 0.2em solid white;
+  color: white;
+  padding: 0.5em;
+}
+
+div {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.dishHolder {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 1em;
+  background: orange;
+  box-shadow: 0px 0px 2em orange;
+  transition-duration: 0.4s;
+
+  border-bottom: 0.2em solid white;
+}
+
+.dishHolder:hover {
+  transform: rotate3d(-5, -5, 0, -15deg);
+  box-shadow: 0px 0px 4em orange;
+  transition-duration: 0.4s;
+}
+
+p {
+  padding: 0.5em;
+  color: white;
+}
